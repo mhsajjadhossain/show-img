@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<input type="file" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])">
+<div>
+    <img src="" alt="" id="blah" width="300">
+</div>
+<script src="custom.js"></script>    
+</body>
+</html>
